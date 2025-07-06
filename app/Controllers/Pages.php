@@ -4,16 +4,19 @@ class Pages extends BaseController
 {
     public function index()
     {
-        return view('front/index');
+        $data['titulo'] = 'Pagina Principal';
+        return view('front/index', $data);
     }
 
     public function quienes()
     {
-        return view('front/quienes-somos');
+        $data['titulo'] = 'Quienes Somos';
+        return view('front/quienes-somos', $data);
     }
 
     public function acerca()
     {
-        return view('front/acerca-de');
+        $data['titulo'] = 'Acerca-de';
+        return view('front/acerca-de', $data);
     }
 }

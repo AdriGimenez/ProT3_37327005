@@ -3,12 +3,14 @@
 class Users extends BaseController
 {
     public function registro()
-    {
-        return view('front/registro');
+    { 
+        $data['titulo'] = 'Registro';
+        return view('back/registro', $data);
     }
 
     public function login()
-    {
-        return view('front/login');
+    { 
+        $data['titulo'] = 'Login';
+        return view('back/login', $data);
     }
 }

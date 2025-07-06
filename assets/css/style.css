@@ -1,0 +1,24 @@
+/* Limitar altura del carrusel */
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+body {
+  background-color: #d9f0d9; /* un verde claro suave */
+}
+
+.custom-container {
+  background-color: white;
+  padding: 2rem;           /* Espacio interno */
+  border-radius: 8px;      /* Bordes redondeados opcional */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra sutil para destacarlo */
+  margin-bottom: 3rem;     /* Espacio debajo del bloque */
+}
+
+.titulo-hr {
+  width: auto;
+  border-top: 2px solid #198754; /* verde Bootstrap */
+  margin: 1rem auto; /* margen vertical + centrado */
+}
