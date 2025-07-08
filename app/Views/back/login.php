@@ -7,13 +7,16 @@
     <div class="col-md-4 mx-auto bg-white p-4 rounded shadow">
     <h2 class="text-center text-dark mb-4">Iniciar sesión</h2>
     <hr class="titulo-hr">
+
+    <!-- Mensaje de Error -->
     <?php if(session()->getFlashdata('msg')):?>
       <div class="alert alert-warning">
         <?= session()->getFlashdata('msg')?>
       </div>
     <?php endif;?>
 
-      <form method="post" action="<?= base_url('login') ?>">
+    <!-- Envio de Formulario -->
+      <form method="post" action="<?= base_url('enviarlogin') ?>">
       <div class="mb-3">
         <label for="email" class="form-label">Correo</label>
         <input name ="email" type="email" class="form-control" id="email" placeholder="nombre@correo.com" required>
@@ -21,7 +24,7 @@
 
       <div class="mb-3">
         <label for="password" class="form-label">Password</label>
-        <input name="password" type="password" class="form-control" id="password" placeholder="Contraseña" required>
+        <input name="pass" type="password" class="form-control" id="password" placeholder="Contraseña" required>
       </div>
 
       <div class="text-center mt-4">

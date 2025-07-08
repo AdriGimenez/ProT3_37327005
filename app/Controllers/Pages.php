@@ -19,4 +19,8 @@ class Pages extends BaseController
         $data['titulo'] = 'Acerca-de';
         return view('front/acerca-de', $data);
     }
+    public function catalogo(){
+        $data['titulo'] = 'Catalogo';
+        return view('front/catalogo', $data);
+    }
 }

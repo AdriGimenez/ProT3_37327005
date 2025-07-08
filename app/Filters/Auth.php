@@ -13,6 +13,6 @@ class Auth implements FiltersInterface
 		}
 	}
 	public funcion after(RequestInterface $request, ResponseInterface $response, $arguments = null){
-		
+		// Do something here
 	}
 }
