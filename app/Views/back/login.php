@@ -1,6 +1,3 @@
-<?= view('front/head_view') ?>
-<?= view('front/navbar') ?>
-
 <!-- Formulario login centrado -->
 <div class="container mt-5">
   <div class="row">
@@ -39,6 +36,3 @@
     </div>
   </div>
 </div>
-
-<?= view('front/footer_view') ?>
-

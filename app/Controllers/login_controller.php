@@ -68,21 +68,4 @@ class login_controller extends BaseController
 		$session->destroy();
 		return redirect()->to('/');
 	}
-
-public function catalogo()
-{
-	helper(['url']);
-
-	// Si querés restringirlo a usuarios logueados
-	if (!session()->get('logged_in')) {
-		return redirect()->to('/login');
-	}
-
-	echo view('front/head_view');
-	echo view('front/navbar');
-
-	echo view('front/catalogo_view'); // <-- tu vista "en construcción"
-
-	echo view('front/footer_view');
-	}
 }

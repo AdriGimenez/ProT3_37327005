@@ -8,4 +8,4 @@
   <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">

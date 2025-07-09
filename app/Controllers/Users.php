@@ -5,12 +5,18 @@ class Users extends BaseController
     public function registro()
     { 
         $data['titulo'] = 'Registro';
-        return view('back/registro', $data);
+        echo view('front/head_view', $data);
+        echo view('front/navbar');
+        echo view('back/registro');
+        echo view('front/footer_view');
     }
 
     public function login()
     { 
         $data['titulo'] = 'Login';
-        return view('back/login', $data);
+        echo view('front/head_view', $data);
+        echo view('front/navbar');
+        echo view('back/login');
+        echo view('front/footer_view');
     }
 }

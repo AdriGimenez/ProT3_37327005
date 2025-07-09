@@ -18,6 +18,7 @@ $routes->get('/', 'Pages::index');
 $routes->get('quienes', 'Pages::quienes');
 $routes->get('acerca', 'Pages::acerca');
 $routes->get('catalogo', 'Pages::catalogo');
+$routes->get('administracion', 'Pages::administracion');
 $routes->get('login', 'Users::login');
 $routes->get('registro','Users::registro');
 

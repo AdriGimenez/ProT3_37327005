@@ -1,6 +1,3 @@
-<?= view('front/head_view') ?>
-<?= view('front/navbar') ?>
-
 <!-- Carrusel -->
 <div id="carouselExampleAutoplaying" class="carousel slide mt-4" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -77,5 +74,3 @@
     </div>
   </form>
 </div>
-
-<?= view('front/footer_view') ?>
